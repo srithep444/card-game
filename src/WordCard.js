@@ -39,6 +39,7 @@ export default class WordCard extends Component {
   render() {
     return (
       <div className="App">
+        <h2>Hint: Spiderman,Ironman,Thanos,Captian America. </h2>
         {Array.from(this.state.chars).map((c, i) => (
           <CharacterCard
             value={c}
@@ -47,7 +48,9 @@ export default class WordCard extends Component {
             activateHandler={this.activateHandler}
           />
         ))}
+        
       </div>
+      
       
     );
   }
