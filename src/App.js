@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
+import CharacterCard from './CharacterCard';
 import './App.css';
 
 class App extends Component {
-  x = "Hello";
-  y = "{\"World\"}";
     render() {
     return (
-      <div className="App">
-          {this.x + this.y}
+      <div>
+        <CharacterCard value="h"/> 
+        <CharacterCard value="i"/>
       </div>
     );
   }
