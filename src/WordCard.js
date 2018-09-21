@@ -50,7 +50,7 @@ export default class WordCard extends Component {
         ))}
         <h2>{this.state.complete? "You Win!!!" : "Select word here."}</h2> 
         <iframe width="560" height="315" src="https://www.youtube.com/embed/FlI4D59nH7I?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/53002798&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+        <iframe width="900" height="360" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/53002798&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
       </div>
     );
   }
