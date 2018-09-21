@@ -1,8 +1,8 @@
 .App {
   text-align: center;
-  background: url(./hand-silhouette-light-woman-profile-sparkler-39671-pxhere.com.jpg) no-repeat center center fixed;  
-  min-width: 100%;
-  min-height: 100%;
+  background: url(./accomplishment-adult-adventure-372098.jpg) no-repeat center center fixed;  
+  min-width: 99%;
+  min-height: 99%;
   position: absolute;
 }
 
@@ -36,7 +36,7 @@
   text-align: center;
   width: 3em;
   font-size: 2em;
-  box-shadow: 0 4px 8px 8px rgb(255, 255, 255);
+  box-shadow: 0 4px 8px 4px rgb(255, 0, 0);
   margin: 1em;
   user-select: none;
 }
