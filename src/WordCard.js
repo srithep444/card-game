@@ -48,6 +48,7 @@ export default class WordCard extends Component {
           />
         ))}
       </div>
+      
     );
   }
 }

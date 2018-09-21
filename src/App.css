@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  background: url(./hand-silhouette-light-woman-profile-sparkler-39671-pxhere.com.jpg) no-repeat center center fixed;  
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
 }
 
 .App-logo {
@@ -38,6 +42,6 @@
 }
 
 .activeCard { 
-  color: rgb(255, 2, 213); 
-  background: pink; 
+  color: rgb(2, 255, 221); 
+  background: rgb(0, 4, 255); 
 }
